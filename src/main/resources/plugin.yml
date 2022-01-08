@@ -1,0 +1,12 @@
+name: HSAPITest
+version: '${project.version}'
+main: me.william278.hsapitest.HSAPITest
+api-version: 1.18
+description: HuskSyncAPI Test
+depend:
+  - HuskSync
+  - HuskHomes
+commands:
+  test:
+    usage: /test
+    description: View your user data
